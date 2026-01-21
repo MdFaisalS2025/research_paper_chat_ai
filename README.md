@@ -1,23 +1,95 @@
-## 🔎 Chat with Arxiv Research Papers
-This Streamlit app enables you to engage in interactive conversations with arXiv, a vast repository of scholarly articles, using GPT-4o. With this RAG application, you can easily access and explore the wealth of knowledge contained within arXiv.
+# Chat with arXiv Research Papers
 
-### Features
-- Engage in conversational interactions with arXiv
-- Access and explore a vast collection of research papers
-- Utilize OpenAI GPT-4o for intelligent responses
+## Overview
 
-### How to get Started?
+**Chat with arXiv Research Papers** is a Streamlit-based Retrieval-Augmented Generation (RAG) application developed to enable conversational interaction with academic research papers from **arXiv**. The application leverages **OpenAI GPT-4o** to generate intelligent, context-aware responses grounded directly in scholarly content.
 
-1. Install the required dependencies:
+This project aims to simplify the exploration and understanding of complex research papers by allowing users to query academic literature using natural language.
+
+---
+
+## Features
+
+- Conversational interface for querying arXiv research papers  
+- Retrieval-Augmented Generation (RAG) for accurate and source-aware responses  
+- Integration with OpenAI GPT-4o  
+- Interactive and user-friendly Streamlit interface  
+- Access to a vast collection of scholarly articles  
+
+---
+
+## Tech Stack
+
+- Python  
+- Streamlit  
+- OpenAI GPT-4o  
+- arXiv API  
+- Retrieval-Augmented Generation (RAG)
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher  
+- OpenAI API key  
+
+---
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/chat-with-arxiv.git
+cd chat-with-arxiv
+Install the required dependencies:
+
+bash
+Copy code
 pip install -r requirements.txt
-```
-2. Get your OpenAI API Key
+OpenAI API Configuration
+Create an account at OpenAI
 
-- Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
+Generate an API key
 
-3. Run the Streamlit App
-```bash
+Set the API key as an environment variable
+
+macOS / Linux
+
+bash
+Copy code
+export OPENAI_API_KEY="your_api_key_here"
+Windows (PowerShell)
+
+powershell
+Copy code
+setx OPENAI_API_KEY "your_api_key_here"
+Running the Application
+Run the Streamlit application using the following command:
+
+bash
+Copy code
 streamlit run chat_arxiv.py
-```
+Once the application is running, open the local URL provided by Streamlit in your browser to start interacting with arXiv research papers.
+
+Use Cases
+Academic research and literature review
+
+Rapid understanding of complex research papers
+
+Exploration of topics in artificial intelligence and machine learning
+
+Educational and learning assistance
+
+Future Enhancements
+Support for multiple LLM providers
+
+Automated research paper summarization
+
+Citation and reference export
+
+Category-based paper filtering
+
+Chat history persistence and bookmarking
