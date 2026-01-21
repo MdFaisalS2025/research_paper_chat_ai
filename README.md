@@ -44,35 +44,36 @@ This project aims to simplify the exploration and understanding of complex resea
 ```bash
 git clone https://github.com/your-username/chat-with-arxiv.git
 cd chat-with-arxiv
-Install the required dependencies:
 
-bash
-Copy code
+
+Install the required dependencies using the command below:
+
+```bash
 pip install -r requirements.txt
 OpenAI API Configuration
+To use this application, you must configure your OpenAI API key.
+
 Create an account at OpenAI
 
-Generate an API key
+Generate an API key from the dashboard
 
 Set the API key as an environment variable
 
 macOS / Linux
-
 bash
 Copy code
 export OPENAI_API_KEY="your_api_key_here"
 Windows (PowerShell)
-
 powershell
 Copy code
 setx OPENAI_API_KEY "your_api_key_here"
 Running the Application
-Run the Streamlit application using the following command:
+Start the Streamlit application using the following command:
 
 bash
 Copy code
 streamlit run chat_arxiv.py
-Once the application is running, open the local URL provided by Streamlit in your browser to start interacting with arXiv research papers.
+Once the application is running, open the local URL provided by Streamlit in your browser to begin interacting with arXiv research papers.
 
 Use Cases
 Academic research and literature review
@@ -93,3 +94,4 @@ Citation and reference export
 Category-based paper filtering
 
 Chat history persistence and bookmarking
+
