@@ -45,6 +45,7 @@ This project aims to simplify the exploration and understanding of complex resea
 git clone https://github.com/your-username/chat-with-arxiv.git
 cd chat-with-arxiv
 
+---
 
 Install the required dependencies using the command below:
 
