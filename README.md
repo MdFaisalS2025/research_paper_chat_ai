@@ -37,51 +37,16 @@ This project simplifies the exploration and understanding of complex research pa
 
 ## Installation
 
-Install the required dependencies:
+1. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-OpenAI API Configuration
-To use this application, configure your OpenAI API key as follows:
+```
+2. Get your OpenAI API Key
 
-Create an account at OpenAI
+- Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
 
-Generate an API key
-
-Set the API key as an environment variable
-
-macOS / Linux
-bash
-Copy code
-export OPENAI_API_KEY="your_api_key_here"
-Windows (PowerShell)
-powershell
-Copy code
-setx OPENAI_API_KEY "your_api_key_here"
-Running the Application
-Run the Streamlit application using the following command:
-
-bash
-Copy code
+3. Run the Streamlit App
+```bash
 streamlit run chat_arxiv.py
-Once the application is running, open the local URL provided by Streamlit in your browser to start interacting with arXiv research papers.
-
-Use Cases
-Academic research and literature review
-
-Rapid understanding of complex research papers
-
-Exploration of artificial intelligence and machine learning topics
-
-Educational and learning assistance
-
-Future Enhancements
-Support for multiple LLM providers
-
-Automated research paper summarization
-
-Citation and reference export
-
-Category-based paper filtering
-
-Chat history persistence and bookmarking
+```
